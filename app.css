@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Poppins:wght@200;300;400;500;600&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+}
+*{
+    margin:0;
+    padding:0;
+    list-style: none;
+    text-decoration: none;
+}
+.sidebar{
+    position: fixed;
+    left: 0;
+    width: 300px;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.13);
+}
+.sidebar header{
+    color:black;
+    text-align: center;
+    font-size: 14px;
+    line-height: 25px;
+    margin-bottom: 15px;
+   margin-right:35px;
+}
+.sidebar header i{
+    padding-right:110px;
+   opacity: 0.7;
+}
+.sidebar .list i{
+   margin-bottom: 35px;
+   font-size: 25px;
+   padding-left: 10px;
+   opacity: 0.7;
+    
+}
+.search{
+  display:flex;
+  text-align: left;
+  align-items: center;
+  background-color:rgba(255, 255, 255, 0.324);
+  margin-left: 5px;
+  width:95%;
+  height:6%;
+  margin-bottom: 20px;
+}
+.search p{
+    justify-content: left;
+    opacity: 0.5;
+    font-size: 15px;
+    padding: 15px;
+}
+.search i{
+    margin-left: 175px;
+    opacity: 0.7;
+  
+}
+.sidebar ul a{
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 45px;
+    font-size:13px;
+    color: black;
+    padding-left: 20px;
+    box-sizing: border-box;
+    transform: 4s;
+    font-weight: bold;
+    opacity: 0.8;
+}
+.border{
+    border-bottom: 1px solid rgba(0, 0, 0, .1);   
+}
+.plus i{
+    opacity: 0.7;
+    margin-left: 170px;
+    font-size: 20px;
+}
+.plus2{
+    opacity: 0.7;
+    margin-left: 155px;
+    font-size: 20px;
+}
+.sidebar ul a i{
+     margin-right: 16px;
+}
+.Stream{
+    background-color:red;
+    padding: 5px;
+}
+.main-content{
+    padding-left: 310px;
+    
+}
+.main-content .music{
+    font-size: 30px;
+    padding-top:40px;
+    padding-left: 10px;
+    opacity: 0.7;
+}
+.main-content .links{
+    display: flex;
+    padding-right:25px;
+    padding-top:10px;
+    margin-left: 20px;
+    color: black;
+    font-size: 23px;
+    margin-left: 2px;
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+   
+}
+.main-content .links a{
+    opacity: 0.5;
+    color: black;
+    padding-left:30px;
+}
+.main-content .shuffle div{
+    display: inline-block;
+     padding: 19px;
+     font-family: 'Times New Roman';
+   
+}
+.main-content .shuffle{
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+}
+.main-content .shuffle i{
+    padding:10px;
+}
+.main-content .find1 i{
+    padding-left: 20px;
+    padding-right: 10px;
+}
+.main-content .find .times i{
+    margin-left: 655px;
+    font-size: 20px;
+}
+.main-content .find p{
+    font-family: 'Times New Roman';
+    padding: 6px;
+}
+.main-content .find a{
+   margin-left:45px;
+}
+.main-content .find{
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+}
+.main-content .main-image{
+    overflow-y: scroll;
+}
+.main-content .images{
+    display:flex;
+    padding-top: 10px;
+    font-weight: bold; 
+}
+.main-content .images img{
+    height: 80%;
+    width:90%;
+}
+.main-content .images .lover{
+    opacity: 0.7;
+}
+ .main-content .images1{
+    display:flex;
+    padding-top: 20px;
+    
+    margin-top: 40px;
+    font-weight: bold;
+}
+.main-content .images1 img{
+    height: 50%;
+    width:80%;
+}
+.main-content .images1 .lover{
+    opacity: 0.7;
+}
+
+ 
